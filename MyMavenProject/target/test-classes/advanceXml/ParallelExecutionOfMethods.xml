@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Parallel test suite" parallel="methods"
+	thread-count="2">
+	<test name="Regression 1">
+		<classes>
+			<class name="day22.testngadvxml.ParallelExecutionOfMethods" />
+		</classes>
+	</test>
+</suite>
