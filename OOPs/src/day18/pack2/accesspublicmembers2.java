@@ -1,0 +1,21 @@
+package day18.pack2;
+
+import day18.pack1.publicmembers;
+
+public class accesspublicmembers2 {
+
+	public static void main(String[] args) {
+		publicmembers p1=new publicmembers();
+		System.out.println("Accessing public members from child class");
+		System.out.println(p1.accnum);
+		p1.displayaccnum();
+	}
+}
+class Demo {
+	public static void main(String[] args) {
+		publicmembers p1=new publicmembers();
+		System.out.println("Accessing public members from child class");
+		System.out.println(p1.accnum);
+		p1.displayaccnum();
+	}
+}
